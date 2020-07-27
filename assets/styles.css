@@ -92,6 +92,7 @@ html, body {
 .curiouscat-pic {
   font-size: 90px;
   margin: 5px 5px;
+  color: black;
 }
 
 .email {
@@ -113,4 +114,10 @@ html, body {
 
 .hidden {
   visibility: hidden;
+}
+
+@media screen and (max-width: 500px) {
+   .phrase {
+     visibility: hidden;
+   }
 }

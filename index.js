@@ -23,6 +23,7 @@ $(".logo-animation").click(function() {
 
   setTimeout(function() {
     current.animate({top: '0', left: '0'})
+    current.css("background-color", "#A3D8FF");
     $(".phrase").text("")
   }, 1000)
 
@@ -39,6 +40,7 @@ $(".blue3").click(function() {
 
   setTimeout(function() {
     current.animate({top: '0', left: '0'})
+    current.css("background-color", "#A3D8FF");
   }, 1000)
 
   setTimeout(function() {
