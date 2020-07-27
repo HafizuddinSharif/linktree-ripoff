@@ -3,16 +3,21 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="assets/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <title></title>
   </head>
   <body>
+
+    <!-- LOGO -->
 
     <div class="row1">
       <div class="empty"></div>
 
       <div class="box">
-        <div class="black"></div>
-        <div class="blue">
+        <div class="black" id="black">
+          <span class="phrase"></span>  
+        </div>
+        <div class="blue color-change logo-animation">
           <img class="logo-pic" src="assets/images/Logo 2.png" alt="">
         </div>
       </div>
@@ -20,52 +25,72 @@
       <div class="empty"></div>
     </div>
 
-    <div class="row2">
-      <div class="empty"></div>
-
-      <div class="box2">
-        <div class="black2"></div>
-        <div class="blue2">
-          <img class="youtube-pic" src="assets/images/youtube.svg" alt="">
-        </div>
-      </div>
-
-      <div class="box2">
-        <div class="black2"></div>
-        <div class="blue2"></div>
-      </div>
-
-      <div class="empty"></div>
-    </div>
+    <!-- FIRST ROW -->
 
     <div class="row2">
       <div class="empty"></div>
 
       <div class="box2">
         <div class="black2"></div>
-        <div class="blue2">
+        <div class="blue2 color-change click-animation">
+          <a href="https://www.linkedin.com/in/hafizuddin-sharif-umar-sharif-606567160/">
+            <img class="youtube-pic" src="assets/images/linkedin.svg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="box2">
+        <div class="black2"></div>
+        <div class="blue2 color-change click-animation">
+          <img class="youtube-pic" src="assets/images/github.svg" alt="">
+        </div>
+      </div>
+
+      <div class="empty"></div>
+    </div>
+
+    <!-- SECOND ROW -->
+
+    <div class="row2">
+      <div class="empty"></div>
+
+      <div class="box2">
+        <div class="black2"></div>
+        <div class="blue2 color-change click-animation">
           <img class="youtube-pic" src="assets/images/youtube.svg" alt="">
         </div>
       </div>
 
       <div class="box2">
         <div class="black2"></div>
-        <div class="blue2"></div>
+        <div class="blue2 color-change click-animation">
+          <span class="iconify curiouscat-pic" data-inline="false" data-icon="mdi:cat"></span>
+        </div>
       </div>
 
       <div class="empty"></div>
     </div>
+
+    <!-- THIRD ROW -->
 
     <div class="row3">
       <div class="empty"></div>
 
       <div class="box3">
         <div class="black3"></div>
-        <div class="blue3"></div>
+        <div class="blue3 color-change" onclick="copyToClipboard('#email')">
+          <span class="email" id="email">hafizuddinshariff@gmail.com</span>
+        </div>
       </div>
 
       <div class="empty"></div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script type="text/javascript" src="index.js">
+
+    </script>
 
   </body>
 </html>

@@ -20,6 +20,10 @@ html, body {
   height: 50px;
 }
 
+.blue3 {
+  display: flex;
+}
+
 .box {
   position: relative;
   height: 150px;
@@ -37,8 +41,6 @@ html, body {
   height: 50px;
   margin: 0 20px;
 }
-
-
 
 .logo-pic {
   width: 110px;
@@ -79,4 +81,35 @@ html, body {
 .youtube-pic {
   width: 80px;
   margin: 10px 10px;
+}
+
+.github-pic {
+  width: 80px;
+  margin: 10px 10px;
+}
+
+.curiouscat-pic {
+  font-size: 90px;
+  margin: 5px 5px;
+}
+
+.email {
+  font-family: 'Anton', sans-serif;
+  font-size: 18px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.phrase {
+  width: 200px;
+  position: absolute;
+  left: 200px;
+  top: 60px;
+  color: white;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+}
+
+.hidden {
+  visibility: hidden;
 }
