@@ -1,0 +1,82 @@
+html, body {
+  background: linear-gradient(180deg, #2972FF 0%, rgba(129, 172, 255, 0.62) 100%);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.black, .blue {
+  width: 150px;
+  height: 150px;
+}
+
+.black2, .blue2 {
+  width: 100px;
+  height: 100px;
+}
+
+.black3, .blue3 {
+  width: 240px;
+  height: 50px;
+}
+
+.box {
+  position: relative;
+  height: 150px;
+  margin: 0 20px;
+}
+
+.box2 {
+  position: relative;
+  height: 100px;
+  margin: 0 20px;
+}
+
+.box3 {
+  position: relative;
+  height: 50px;
+  margin: 0 20px;
+}
+
+
+
+.logo-pic {
+  width: 110px;
+  padding: 15px 20px;
+}
+
+.black, .black2, .black3 {
+  background-color: black;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.blue, .blue2, .blue3 {
+  background-color: #A3D8FF;
+  position: absolute;
+}
+
+.row1 {
+  display: grid;
+  grid-template-columns: 1fr 190px 1fr;
+  padding: 20px 0;
+  padding-top: 40px;
+}
+
+.row2 {
+  display: grid;
+  grid-template-columns: 1fr 140px 140px 1fr;
+  padding: 20px 0;
+}
+
+.row3 {
+  display: grid;
+  grid-template-columns: 1fr 280px 1fr;
+  padding: 20px 0;
+}
+
+.youtube-pic {
+  width: 80px;
+  margin: 10px 10px;
+}
